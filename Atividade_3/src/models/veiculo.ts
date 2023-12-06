@@ -24,7 +24,7 @@ class Moto extends Veiculo{
     public fork: "Telescópio" | "Telescópio invertido" = "Telescópio";
     // Aplicação de polimorfismo
     freiar(){
-        console.log("Freiou com a mão");
+        console.log("Moto: Freiou com a mão");
     }
 }
 
@@ -32,7 +32,7 @@ class Moto extends Veiculo{
 class Carro extends Veiculo{
     // Aplicação de polimorfismo
     freiar(){
-        console.log("Freiou com a pé");
+        console.log("Carro: Freiou com o pé");
     }
 }
 

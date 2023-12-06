@@ -5,7 +5,7 @@ class Curso{
     // Atributos da clase
     public nome:string  = "";
     public area:string  = "";
-    duracao:string  = "";
+    public duracao:string  = "";
 }
 
 // Aplicação de herança

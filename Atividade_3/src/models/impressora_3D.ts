@@ -3,9 +3,9 @@ export {Impressora3D, FDM}
 
 class Impressora3D{
     // Atributos da clase
-    marca:string  = "";
-    modelo:string  = "";
-    tipo:string  = "";
+    public marca:string  = "";
+    public modelo:string  = "";
+    public tipo:string  = "";
 }
 
 // Aplicação de herança
